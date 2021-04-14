@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen bg-accent pb-5">
+  <div class="bg-accent pb-5">
     <div class="mx-auto max-w-screen-lg">
       <h1 class="text-primary text-center font-bold text-5xl">
         <span>Minato</span> <span class="text-primary-light">Aqua</span>

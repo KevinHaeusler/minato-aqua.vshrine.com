@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-14 bg-primary text-white text-center">
+  <div class="h-14 bg-primary text-white text-center">
     <NuxtLink to="/">Home |</NuxtLink>
     <NuxtLink to="/credits">Credits |</NuxtLink>
     <a href="https://github.com/KevinHaeusler/minato-aqua.vshrine.com"
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style></style>
