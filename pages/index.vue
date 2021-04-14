@@ -1,36 +1,40 @@
 <template>
-  <div class="bg-accent pb-5">
-    <div class="mx-auto max-w-screen-lg">
-      <h1 class="text-primary text-center font-bold text-5xl">
+  <div class="pb-5 bg-accent">
+    <div class="mx-auto">
+      <h1 class="text-5xl font-bold text-center text-primary">
         <span>Minato</span> <span class="text-primary-light">Aqua</span>
         <span class="text-secondary">Virtual</span>
         <span class="text-white">Shrine</span>
       </h1>
-      <p class="text-black text-center mt-5">
+      <p class="mt-5 text-center text-black">
         This website is a work in progress, feel free to checkout the
         <a href="https://github.com/KevinHaeusler/minato-aqua.vshrine.com"
           >Github</a
         >
       </p>
-      <div class="lg:flex mt-5 lg:place-content-center">
-        <div class="w-40 h-40 mr-5 bg-primary text-white text-center shadow">
+      <div class="mt-5 lg:flex lg:place-content-center">
+        <div class="w-40 h-40 mr-5 text-center text-white shadow bg-primary">
           Primary
         </div>
         <div
-          class="w-40 h-40 mr-5 bg-primary-light text-white text-center shadow"
+          class="w-40 h-40 mr-5 text-center text-white shadow bg-primary-light"
         >
           Primary Light
         </div>
-        <div class="w-40 h-40 mr-5 bg-secondary text-white text-center shadow">
+        <div class="w-40 h-40 mr-5 text-center text-white shadow bg-secondary">
           Secondary
         </div>
-        <div class="w-40 h-40 mr-5 bg-accent text-black text-center shadow">
+        <div class="w-40 h-40 mr-5 text-center text-black shadow bg-accent">
           Accent
         </div>
-        <div class="w-40 h-40 mr-5 bg-white text-black text-center shadow">
+        <div class="w-40 h-40 mr-5 text-center text-black bg-white shadow">
           White
         </div>
       </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Costumes />
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br />
       <div class="flex mt-5">
         <bgm class="mx-auto" />
       </div>
@@ -38,7 +42,7 @@
         class="mx-auto"
         :src="require(`~/assets/img/costumes/minatoaqua-default.png`)"
       />
-      <div class="bg-primary max-w-screen-md mx-auto p-5">
+      <div class="max-w-screen-md p-5 mx-auto bg-primary">
         <iframe
           class="mx-auto"
           width="360"
